@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login do cliente | FarmaTec</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <main class="container-fluid">
+    <header class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top col-12" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav col-12 text-center">
+            <li class="nav-item mx-1 my-auto">
+              <a href="../index.html" class="navbar-brand"><img src="../imagens/logo_comp_branca.png" class="img-fluid"
+                  alt="Logo"></a>
+            </li>
+          </ul>
+      </nav>
+    </header>
+
+    <section class="row">
+      <h2 class="col-12 mt-4 font-weight-bold"><i class="fa fa-user"></i> Identificação</h2>
+    </section>
+
+    <section class="row">
+      <div class="col-1 col-md-3 col-lg-1 "></div>
+
+      <form class="text-center col-10 col-md-6 col-lg-4 form1 mt-5" action="" method="">
+        <h3 class="my-4">Login</h3>
+        <input class="form-control my-1" type="text" id="txtusuario" name="txtusuario" placeholder="Usuário"><br>
+        <input class="form-control my-1" type="password" id="txtsenha" name="txtsenha" placeholder="Senha"><br>
+        <a class="small my-0" href="">Esqueceu sua Senha?</a><br>
+        <input type="button" id="btnLogin" name="btnLogin" value="Login" class="btn-danger py-1 px-3 my-4">
+      </form>
+
+      <div class="col-1 col-md-3 col-lg-1"></div>
+      <div class="col-1 col-md-3 col-lg-1"></div>
+
+      <div class="text-center col-10 col-md-6 col-lg-4 form1 mt-5">
+        <h3 class="my-4">Ainda não é cliente</h3>
+        <p class="my-5">Cadastre-se para receber novidades e finalizar sua compra</p>
+        <p class="mt-5">A seguir você informará seus dados para continuar o processo de compra.</p>
+        <a href="cadastro.html"><input type="button" id="btnCad1" name="btnCad1" value="Cadastre-se" class="btn-danger py-1 px-3 my-1"></a>
+      </div>
+
+      <div class="col-1 col-md-3 col-lg-1"></div>
+    </section>
+  </main>
+
+</body>
+
+</html>

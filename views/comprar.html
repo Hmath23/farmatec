@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FarmaTec</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <link href="../css/style.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <main class="container-fluid">
+
+    <header class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top col-12" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav col-12 text-center">
+            <li class="nav-item mx-1 my-auto">
+              <a href="../index.html" class="navbar-brand"><img src="../imagens/logo_comp_branca.png" class="img-fluid"
+                  alt="Logo"></a>
+            </li>
+            <li class="nav-item dropdown mx-2 my-auto">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Categorias
+              </a>
+              <div class="dropdown-menu border-0 text-center">
+                <a class="nav-link" href="../views/medicamentos.html">Medicamentos</a>
+                <a class="nav-link" href="../views/suplementos.html">Suplementos</a>
+                <a class="nav-link" href="../views/higienepessoal.html">Higiene Pessoal</a>
+              </div>
+            </li>
+            <li class="nav-item mx-auto my-auto">
+              <form class="mx-auto form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2 border-0" type="search" placeholder="Pesquisar"
+                  aria-label="Pesquisar">
+              </form>
+            </li>
+            <li class="nav-item mx-2 my-auto">
+              <a class="nav-link" href="../login.php">Login</a>
+            </li>
+            <li class="nav-item mx-2 my-auto">
+              <a class="nav-link" href="../login.php"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+      </nav>
+    </header>
+
+    <br>
+
+    <div id="pagamentos" class="container text-center alert">
+      <strong>10% OFF COM PAGAMENTO A VISTA </strong></a>
+    </div>
+
+    <section class="container">
+      <article class="row">
+        <figure class="col-md-7">
+          <img id="imgB" src="../imagens/higiene_1.png" class="img-fluid" alt="">
+        </figure>
+
+        <section class="col-md-5">
+          <article>
+            <h1>iPhone X</h1>
+            <div class="row">
+              <ul>
+                <li>Dispositivo desbloqueado para que você escolha a companhia telefônica de sua preferência.</li>
+                <li>Tela OLED de 5.8".</li>
+                <li>Tem 2 câmeras traseiras de 12Mpx/12Mpx...</li>
+            </div>
+
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Ler
+              Mais</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">iPhone X</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <h5>Ficha Técnica</h5>
+                      <div class="row">
+                        <ul>
+                          <li>Dispositivo desbloqueado para que você escolha a companhia telefônica de sua preferência.
+                          </li>
+                          <li>Tela OLED de 5.8".</li>
+                          <li>Tem 2 câmeras traseiras de 12Mpx/12Mpx.</li>
+                          <li>Câmera frontal de 7Mpx.</li>
+                          <li>Processador Apple A11 Bionic de 2.39GHz com 3GB de RAM.</li>
+                          <li>Bateria de 2716mAh com carregamento sem fio.</li>
+                          <li>Memória interna de 64GB.</li>
+                          <li>Resistente à água.</li>
+                          <li>Com reconhecimento facial.</li>
+                          <li>Resistente à poeira.</li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </article>
+
+          <br>
+
+          <article>
+
+            <strong>
+              <h4>A Vista R$ 2.429,00</h4>
+              <h5>12x de R$ 224,91</h5>
+            </strong>
+
+            <form action="#">
+              <div class="form-group">
+                <label for="produtos-quantidade-itens">Quantidade</label>
+                <select class="form-control" id="produtos-quantidade-itens">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </div>
+              <div class="">
+                <p>Armazenamento:</p>
+                <input type="radio" name="64GB" id="64GB"> 64GB
+              </div>
+              <br>
+              <div class="">
+                <p>Estado do Aparelho:</p>
+                <input type="radio" name="Semi-Novo" id="Semi-Novo"> Semi-Novo
+              </div>
+              <br>
+
+              <button type="button" class="btn btn-success col-md-12">Comprar</button>
+            </form>
+          </article>
+        </section>
+    </section>
+    </section>
+
+  </main>
+
+  <footer class="footer-top row m-0 py-5">
+
+    <div class="col-md-1 col-lg-1"></div>
+
+    <div class="col-12 col-md-3 col-lg-2 ml-auto">
+      <a href="../index.html" class="text-danger font-weight-bold small"><img src="../imagens/logo_verde.png"
+          width="33px" alt="" class="mx-1">FarmaTec Loja Online</a>
+      <p class="small my-4 f-text">FarmaTec<br>
+        <strong>Phone: </strong>+55(11)0000-0000<br>
+        <strong>Email: </strong>farmatec@email.com</p>
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-3 mx-1 text-center">
+      <h4 class="text-danger">Atalhos</h4>
+      <ul class="list-unstyled">
+        <li><a href="../index.html" class="small f-text">Pagina Inicial</a></li>
+        <li><a href="../views/promocoes.html" class="small f-text">Promoções</a></li>
+        <li><a href="../views/medicamentos.html" class="small f-text">Medicamentos</a></li>
+        <li><a href="../views/suplementos.html" class="small f-text">Suplementos</a></li>
+        <li><a href="../views/higienepessoal.html" class="small f-text">Higiene Pessoal</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-md-3 col-lg-2 mr-auto text-center">
+      <h4 class="text-danger">Mídias Sociais</h4>
+      <p class="small f-text">Siga-nos em nossas mídias sociais para acompanhar produtos e demais ofertas.</p>
+      <div class="mt-3">
+        <a href="../index.html" class="mx-3"><i class="fa fa-whatsapp f-text"></i></a>
+        <a href="../index.html" class="mx-3"><i class="fa fa-facebook-f f-text"></i></a>
+        <a href="../index.html" class="mx-3"><i class="fa fa-instagram f-text"></i></a>
+      </div>
+    </div>
+    <div class="col-md-1 col-lg-1"></div>
+
+    <div class="col-12">
+      <div class="f-text small text-center">
+        &copy; Copyright<span class="text-danger font-weight-bold"> FarmaTec </span>. All Rights Reseved
+      </div>
+      <div class="text-danger small text-center">
+        <p href="../index.html">Designed by TI88</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+</a>
